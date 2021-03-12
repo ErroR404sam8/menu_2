@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+
+.main{
+
+}
+.Menu{
+    overflow: hidden;
+    background: lightblue;
+}
+.Menu ul{
+    text-align: center;
+    list-style: none;
+    padding: 18px;
+
+}
+.Menu ul li{
+    display: inline-block;
+    font-size: 33px;
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
+.Menu ul li:hover{
+    background: lightslategray;
+    transition: 3s;
+}
